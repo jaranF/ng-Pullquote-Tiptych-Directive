@@ -40,10 +40,10 @@ article, aside, footer, header, nav, section {
    ==================================================== */
 /* handwriting font-family: "DirectLineHandwriting_Bold",*/
 html {
-    background-color: #ffffff;
+    background-color: $color_2;
 }
 body {
-    color: $color_1; /* $color_1 */
+    color: $color_2; /* $color_1 */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%; /* ie. 10px */
     font-weight: normal;
