@@ -1,1 +1,3 @@
-layout/* linguist-vendored
+*.scss linguist-vendored
+*.css linguist-vendored
+**/layout linguist-vendored 
