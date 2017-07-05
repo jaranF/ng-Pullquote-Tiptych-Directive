@@ -1,4 +1,5 @@
-@import 'elements/variables.scss';
+@import 'variables';
+@import 'vendor/reset_and_base';
 body {
   zoom: 1;
 }
