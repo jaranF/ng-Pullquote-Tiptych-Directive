@@ -16,13 +16,13 @@
 @media only screen and (max-width: 801px) {
   .promo_triptych {
     flex-wrap: wrap;
+    font-size: 1.2em; //Scale up by 20%
   }
   .promo_triptych > * {
     width: 45%;
   }
   .promo_triptych > *:nth-of-type(3) { //nth-of-type  IE8 and below fallback not reqd 'cos it doesn't support @media querries > * + * + * + *
     width: 100%;
-    margin-top: 2em;
   }
   .promo_triptych__ancillary-quote-box--leftTick  {
     margin: 40px 0 0;
@@ -34,3 +34,8 @@
   }
 
 } /* End <801px responsive */
+@media only screen and (max-width: 561px) {
+  .promo_triptych > * {
+    width: 100%;
+  }
+} /* End <561px responsive */
