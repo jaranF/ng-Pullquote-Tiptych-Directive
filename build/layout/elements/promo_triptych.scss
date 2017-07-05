@@ -36,24 +36,21 @@
 }
   .promo_triptych > * {
   width: 33%;
-  min-height: 150px;
   overflow:hidden;
 }
 .promo_triptych > * > img {
   width: 100%;
   height: auto;
 }
-.promo_triptych > *:nth-of-type(3) {
-  align-self: center;
-}
 .promo_triptych__ancillary-quote-box {
-  font-size: 3em;
+  position: relative;
+  top: 30%;
+  z-index: 0;
+  border-radius: 0.75rem;
+  padding: 2.2rem 0.35em 1.1rem 1.05em;
   background-color: $color_5;
   color: $color_3;
-  border-radius: 0.75rem;
-  padding: 2.2rem 0.35em 1.1rem 0.35em;
-  position: relative;
-  z-index: 0;
+  font-size: 3em;
   font-family: 'DirectLineHandwriting_Bold', "Comic Sans MS";
 }
 .promo_triptych__ancillary-quote-box--leftTick  {
@@ -71,5 +68,5 @@
   border-bottom: 15px solid $color_5;
   opacity: 1;
   border-radius: 20% 17% 0% 0%;
-  transform: translate(-15px, -10px) rotate(-145deg) skewX(-55deg) scale(1.7,0.55)
+  transform: translate(-39px, -10px) rotate(-145deg) skewX(-55deg) scale(1.7,0.55)
 }
