@@ -3,6 +3,8 @@
    RESET AND BASE
    ==================================================== */
 html {
+  font-size: 62.5%;
+  /* ie. 10px */
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -33,13 +35,10 @@ html {
   background-color: #ffffff; }
 
 body {
-  color: #365973;
+  color: #65859e;
   /* $color_2 */
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 62.5%;
-  /* ie. 10px */
   font-weight: normal;
-  line-height: 2.25em;
   margin: 0; }
 
 main {
@@ -84,10 +83,55 @@ ul, ol {
 .tr {
   display: table-row; }
 
-.main {
-  background-color: silver;
+/* @import url('elements/promo_triptych.scss'); */
+/* ====================================================
+   Promo Triptych
+   ==================================================== */
+.promo_triptych {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
   width: 100%;
-  max-width: 995px;
+  margin: 2em 0;
+  padding: 1.8em 1.6em;
+  font-size: 1rem;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #65859e; }
+
+.promo_triptych__title {
+  color: #1a4763;
+  font-family: 'DirectLineHandwriting_Bold', "Comic Sans MS";
+  line-height: 1.25em;
+  padding: 0.2em 0.2em 0.5em 0.2em;
+  text-align: center;
+  font-size: 2.8em; }
+
+.promo_triptych__features-list {
+  list-style: none; }
+
+.promo_triptych__features-list > li {
+  min-height: 3.4rem;
+  font-size: 1.4em;
+  padding-left: 4.8rem;
+  background: url("assets/tick.png") no-repeat left top;
+  margin-bottom: 1rem; }
+
+.promo_triptych > * {
+  width: 30%;
+  min-height: 199px; }
+
+.promo_triptych > div:nth-of-type(2) {
+  background-color: yellow; }
+
+.promo_triptych > div:nth-of-type(3) {
+  background-color: lime; }
+
+.main {
+  width: 100%;
+  max-width: 985px;
   margin: 2em auto; }
 
 /*# sourceMappingURL=main.css.map */

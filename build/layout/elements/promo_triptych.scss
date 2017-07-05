@@ -1,0 +1,47 @@
+@import '../variables.scss';
+/* @import url('elements/promo_triptych.scss'); */
+/* ====================================================
+   Promo Triptych
+   ==================================================== */
+.promo_triptych {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2em 0;
+  padding: 1.8em 1.6em;
+  font-size: 1rem; //> IE 8
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: $color_6;
+  color: $color_2;
+}
+.promo_triptych__title {
+  color: $color_3;
+  font-family: 'DirectLineHandwriting_Bold', "Comic Sans MS";
+  line-height: 1.25em;
+  padding: 0.2em 0.2em 0.5em 0.2em;
+  text-align: center;
+  font-size: 2.8em;
+}
+.promo_triptych__features-list {
+  list-style: none;
+}
+.promo_triptych__features-list > li {
+  min-height: 3.4rem;
+  font-size: 1.4em;
+  padding-left: 4.8rem;
+  background:  url('assets/tick.png') no-repeat left top;
+  margin-bottom: 1rem;
+}
+.promo_triptych > * {
+  width: 30%;
+  min-height: 199px;
+}
+.promo_triptych > div:nth-of-type(2) {
+  background-color: yellow;
+}
+.promo_triptych > div:nth-of-type(3) {
+  background-color: lime;
+}

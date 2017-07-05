@@ -1,32 +1,19 @@
-<!DOCTYPE HTML><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+<!DOCTYPE HTML><html ng-app="myApp">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>ng-Pullquote-Tiptych-Directive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="build/layout/main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+</head>
 
 
+<body>
+<section class="MAIN" ng-controller="MainCtrl as ctrl">
+    <div promo-triptych i8n-data="ctrl.i8nMessages"></div>
+</section>
 
-   </head>
-
-
-   <body><div style="font-size:24px; font-family: 'DirectLineHandwriting_Bold'">Its here</div></body>
-    <section class="main">
-        <article class="promo_triptych">
-            <div>
-                <div class="promo_triptych__title">Your dependable partner</div>
-                <ul class="promo_triptych__features-list">
-                    <li>We believe in being there for you.</li>
-                    <li>It's important that we live this through our policies.</li>
-                    <li>We believe that every interaction matters.</li>
-                    <li>We spend time making sure you're happy. Oh Yes!</li>
-
-                </ul>
-            </div>
-            <div><img src="build/layout/assets/tick.png"></div>
-            <div></div>
-
-        </article>
-
-    </section>
-
-
+<script type="text/javascript" src="build/js/app.js"></script>
+<script type="text/javascript" src="build/directives/promo-triptych.js"></script>
+</body>
 </html>
