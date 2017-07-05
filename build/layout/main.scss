@@ -24,5 +24,13 @@
     width: 100%;
     margin-top: 2em;
   }
-  body * { text-decoration: underline; }
+  .promo_triptych__ancillary-quote-box--leftTick  {
+    margin: 40px 0 0;
+    padding: 2.2rem 0.35em 1.1rem 0.75em;
+  }
+  .promo_triptych__ancillary-quote-box--leftTick:before {
+    right: 18%;
+    transform: translate(0px, -42px) rotate(-270deg) skewX(55deg) scale(1.7, 0.55);
+  }
+
 } /* End <801px responsive */
