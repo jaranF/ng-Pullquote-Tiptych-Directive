@@ -115,7 +115,7 @@ ul, ol {
   min-height: 3.4rem;
   font-size: 1.4em;
   padding-left: 4.8rem;
-  background: url("assets/tick.png") no-repeat left top;
+  background: url("assets/tick.png") no-repeat -4px top;
   margin-bottom: 1rem; }
 
 .promo_triptych > * {
