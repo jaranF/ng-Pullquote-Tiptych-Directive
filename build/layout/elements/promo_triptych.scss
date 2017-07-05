@@ -34,16 +34,18 @@
   background:  url('assets/tick.png') no-repeat left top;
   margin-bottom: 1rem;
 }
-.promo_triptych > * {
-  width: 30%;
-  min-height: 199px;
+  .promo_triptych > * {
+  width: 33%;
+  min-height: 150px;
   overflow:hidden;
 }
 .promo_triptych > * > img {
   width: 100%;
   height: auto;
 }
-
+.promo_triptych > *:nth-of-type(3) {
+  align-self: center;
+}
 .promo_triptych__ancillary-quote-box {
   font-size: 3em;
   background-color: $color_5;
@@ -54,7 +56,7 @@
   font-family: 'DirectLineHandwriting_Bold', "Comic Sans MS";
 }
 .promo_triptych__ancillary-quote-box--leftTick  {
-  margin-left: 40px;
+  margin-left: 35px;
 }
 .promo_triptych__ancillary-quote-box--leftTick:before {
   content:'';
