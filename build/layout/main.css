@@ -120,7 +120,12 @@ ul, ol {
 
 .promo_triptych > * {
   width: 30%;
-  min-height: 199px; }
+  min-height: 199px;
+  overflow: hidden; }
+
+.promo_triptych > * > img {
+  width: 100%;
+  height: auto; }
 
 .promo_triptych__ancillary-quote-box {
   font-size: 3em;
