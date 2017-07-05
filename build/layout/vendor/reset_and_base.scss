@@ -3,36 +3,48 @@
 /* ====================================================
    RESET AND BASE
    ==================================================== */
-hr[title], .notification.notification-lock { display: none;}
+  //1. Correct the line height in all browsers.
+  //2. Prevent adjustments of font size after orientation changes in
+  //IE on Windows Phone and in iOS.
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+  //Add the correct display in IE 9-.
+article, aside, footer, header, nav, section {
+        display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 /* ====================================================
    Fonts
    ==================================================== */
 @font-face {
-    font-family: 'FS_Lola_Web_Regular';
-    src: url('https://live-lta.fastcdn.co.uk/Static/fonts/FSLola/FSLolaWeb-Regular.eot');
-    src: url('https://live-lta.fastcdn.co.uk/Static/fonts/FSLola/FSLolaWeb-Regular.eot?#iefix') format('eot'),
-    url('https://live-lta.fastcdn.co.uk/Static/fonts/FSLola/FSLolaWeb-Regular.woff') format('woff'),
-    url('https://live-lta.fastcdn.co.uk/Static/fonts/FSLola/FSLolaWeb-Regular.ttf') format('truetype'),
-    url('https://live-lta.fastcdn.co.uk/Static/fonts/FSLola/FSLolaWeb-Regular.svg#webfont') format('svg');
-    font-weight: normal; /* BASE URI FOR LIVE https://moo.zendesk.com/hc/theme_assets/148033/200069764/901550293-BryantMooPro-Medium.woff*/
+    font-family: 'DirectLineHandwriting_Bold';
+    src: url('assets/bold.eot');                        // IE9 Compat Modes */
+    src: url('assets/bold.eot?#iefix') format('eot'),   // IE6-IE8 */
+         url('assets/bold.woff2') format('woff2'),      // Super Modern Browsers */
+         url('assets/bold.woff') format('woff'),        // Pretty Modern Browsers */
+         url('assets/bold.ttf') format('truetype'),     // Safari, Android, iOS */
+         url('assets/bold.svg#webfont') format('svg');  // Legacy iOS */
+    font-weight: normal;
     font-style: normal;
     font-variant: normal
 }
 /* ====================================================
    Base styles
    ==================================================== */
-*, input[type=search] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: "FS_Lola_Web_Regular", "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
-}
+/* handwriting font-family: "DirectLineHandwriting_Bold",*/
 html {
-    background-color: #ffffff; /* $color_2 */
+    background-color: #ffffff;
 }
 body {
     color: $color_1; /* $color_1 */
-    font-family: "FS_Lola_Web_Regular", "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%; /* ie. 10px */
     font-weight: normal;
     line-height: 2.25em;
