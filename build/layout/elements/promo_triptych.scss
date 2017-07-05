@@ -6,7 +6,6 @@
 .promo_triptych {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: space-between;
   width: 100%;
   margin: 2em 0;
@@ -39,9 +38,6 @@
   width: 30%;
   min-height: 199px;
 }
-.promo_triptych > div:nth-of-type(2) {
-  background-color: yellow;
-}
-.promo_triptych > div:nth-of-type(3) {
-  background-color: lime;
+.promo_triptych > *:nth-of-type(3) {
+  background-color: $color_5;
 }

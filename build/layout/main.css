@@ -90,7 +90,6 @@ ul, ol {
 .promo_triptych {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: space-between;
   width: 100%;
   margin: 2em 0;
@@ -123,15 +122,32 @@ ul, ol {
   width: 30%;
   min-height: 199px; }
 
-.promo_triptych > div:nth-of-type(2) {
-  background-color: yellow; }
-
-.promo_triptych > div:nth-of-type(3) {
-  background-color: lime; }
+.promo_triptych > *:nth-of-type(3) {
+  background-color: #c4e4fc; }
 
 .MAIN {
   width: 100%;
   max-width: 985px;
   margin: 2em auto; }
+
+@media only screen and (max-width: 1005px) {
+  .MAIN {
+    padding-left: 10px;
+    padding-right: 10px; } }
+/* End <1005px margin left & right adder */
+@media only screen and (max-width: 801px) {
+  .promo_triptych {
+    flex-wrap: wrap; }
+
+  .promo_triptych > * {
+    width: 45%; }
+
+  .promo_triptych > *:nth-of-type(3) {
+    width: 100%;
+    margin-top: 2em; }
+
+  body * {
+    text-decoration: underline; } }
+/* End <801px responsive */
 
 /*# sourceMappingURL=main.css.map */
