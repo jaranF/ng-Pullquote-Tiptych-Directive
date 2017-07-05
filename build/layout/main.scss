@@ -14,29 +14,10 @@
   }
 } /* End <1005px margin left & right adder */
 @media only screen and (max-width: 801px) {
-  .promo_triptych {
-    flex-wrap: wrap;
-    font-size: 1.2em; //Scale up by 20%
-  }
-  .promo_triptych > * {
-    width: 45%;
-  }
-  .promo_triptych > *:nth-of-type(3) { //nth-of-type  IE8 and below fallback not reqd 'cos it doesn't support @media querries > * + * + * + *
-    width: 100%;
-  }
-  .promo_triptych__ancillary-quote-box--leftTick  {
-    top: 0;
-    margin: 40px 0 0;
-    padding: 2.2rem 0.35em 1.1rem 0.75em;
-  }
-  .promo_triptych__ancillary-quote-box--leftTick:before {
-    right: 18%;
-    transform: translate(0px, -42px) rotate(-270deg) skewX(55deg) scale(1.7, 0.55);
-  }
-
-} /* End <801px responsive */
+  @import 'responsive--elements/promo_triptych_801.scss';
+  /* End <801px responsive--elements */
+}
 @media only screen and (max-width: 561px) {
-  .promo_triptych > * {
-    width: 100%;
-  }
-} /* End <561px responsive */
+  @import 'responsive--elements/promo_triptych_561.scss';
+  /* End <561px responsive--elements */
+}

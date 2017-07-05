@@ -1,5 +1,5 @@
 @import '../variables.scss';
-/* @import url('elements/promo_triptych.scss'); */
+/* @import url('elements/promo_triptych_801.scss'); */
 /* ====================================================
    Promo Triptych
    ==================================================== */
@@ -44,7 +44,7 @@
 }
 .promo_triptych__ancillary-quote-box {
   position: relative;
-  top: 30%;
+  margin-top: 40%; //Used to be top: 30% but that didn't work on Safari. Actually works out better because the responsive section sets a margin and so it doesn't need a 'top: 0' override now.
   z-index: 0;
   border-radius: 0.75rem;
   padding: 2.2rem 0.35em 1.1rem 1.05em;
