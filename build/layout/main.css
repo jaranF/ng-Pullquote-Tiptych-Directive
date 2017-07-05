@@ -129,7 +129,7 @@ ul, ol {
 .promo_triptych > div:nth-of-type(3) {
   background-color: lime; }
 
-.main {
+.MAIN {
   width: 100%;
   max-width: 985px;
   margin: 2em auto; }
