@@ -40,10 +40,10 @@ article, aside, footer, header, nav, section {
    ==================================================== */
 /* handwriting font-family: "DirectLineHandwriting_Bold",*/
 html {
-    background-color: $color_2;
+    background-color: $color_1;
 }
 body {
-    color: $color_2; /* $color_1 */
+    color: $color_2; /* $color_2 */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%; /* ie. 10px */
     font-weight: normal;
@@ -54,7 +54,7 @@ main {
     display: block;
 }
 a {
-    color: #000; /* $color_5 */
+    color: $color_4 ; /* $color_4 */
     text-decoration: none;
 }
 a:hover {
@@ -71,42 +71,6 @@ ul, ol {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-/* ====================================================
-   Theme Stylings
-   ==================================================== */
-.themeLight {
-    color: #4b4f54;
-}
-.themeLight a,
-    .themeLight a:link,
-    .themeLight a:hover,
-    .themeLight a:active {
-    color: $color_1; /* $color_1 */
-}
-.themeLight a:hover {
-    text-decoration: underline;
-}
-.themeLight1 {
-    color: #4b4f54;
-}
-.themeLight1 a,
-.themeLight1 a:link,
-.themeLight1 a:hover,
-.themeLight1 a:active {
-    color: $color_6; /* $color_6 */
-}
-.themeLight1 a:hover {
-    text-decoration: underline;
-}
-.themeDark {
-    color: #fff;
-}
-.themeDark a,
-.themeDark a:link,
-.themeDark a:hover,
-.themeDark a:active {
-    color: $color_1; /* $color_1 */
 }
 /* ====================================================
    Helper classes
