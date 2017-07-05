@@ -66,45 +66,6 @@ ul, ol {
   padding: 0; }
 
 /* ====================================================
-   Theme Stylings
-   ==================================================== */
-.themeLight {
-  color: #4b4f54; }
-
-.themeLight a,
-.themeLight a:link,
-.themeLight a:hover,
-.themeLight a:active {
-  color: #ffffff;
-  /* $color_1 */ }
-
-.themeLight a:hover {
-  text-decoration: underline; }
-
-.themeLight1 {
-  color: #4b4f54; }
-
-.themeLight1 a,
-.themeLight1 a:link,
-.themeLight1 a:hover,
-.themeLight1 a:active {
-  color: #1a4763;
-  /* $color_6 */ }
-
-.themeLight1 a:hover {
-  text-decoration: underline; }
-
-.themeDark {
-  color: #fff; }
-
-.themeDark a,
-.themeDark a:link,
-.themeDark a:hover,
-.themeDark a:active {
-  color: #ffffff;
-  /* $color_1 */ }
-
-/* ====================================================
    Helper classes
    ==================================================== */
 /*
@@ -123,7 +84,10 @@ ul, ol {
 .tr {
   display: table-row; }
 
-body {
-  zoom: 1; }
+.main {
+  background-color: silver;
+  width: 100%;
+  max-width: 995px;
+  margin: 2em auto; }
 
 /*# sourceMappingURL=main.css.map */

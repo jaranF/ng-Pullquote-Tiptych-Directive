@@ -1,5 +1,8 @@
 @import 'variables.scss';
 @import 'vendor/reset_and_base';
-body {
-  zoom: 1;
+.main {
+  background-color: silver;
+  width: 100%;
+  max-width: 995px;
+  margin: 2em auto;
 }
