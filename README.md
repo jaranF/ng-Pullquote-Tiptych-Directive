@@ -8,7 +8,7 @@ The task is to make a CSS pullquote tryptich featuring elements in these order t
 
 Other specifications for this Angular directive are that it should work responsively and also use SASS
 
-## Usage 
+## Usage
 **HTML**
 ```html
 <div promo-triptych i8n-data="ctrl.i8nMessages"></div>`
@@ -28,3 +28,12 @@ Other specifications for this Angular directive are that it should work responsi
             };
         }]
 ```
+
+## Screengraps (320px -ish width sized screen)
+
+![alt text](http://www.currahee.co.uk/media/i/ng-pullquote-triptych2.jpg "iPhone4s Triptych Directive [Top Half]")
+
+![alt text](http://www.currahee.co.uk/media/i/ng-pullquote-triptych3.jpg "iPhone4s Triptych Directive [Bottom Half]")
+
+Although not exact iPhone4S-sized depictions these screengrabs taken from xCode's iOS device simulator demonstrate the directive working responsively.
+
